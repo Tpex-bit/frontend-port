@@ -1,0 +1,136 @@
+body {
+    background-image: url('SL-120722-54440-11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Anonymous Pro', 'Montserrat', sans-serif;
+    padding: 0;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2,
+p {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+h1 {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    color: #000000;
+    font-size: 27px;
+    padding-top: 15px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 27px;
+    padding-top: 15px;
+}
+
+ul {
+    color: #000000;
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+ul {
+    font-size: 16px;
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 35px;
+    padding-bottom: 45px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    overflow-y: auto;
+    border: 1px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.assinatura {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+
+}
+
+.menu-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border: 1px;
+
+}
+
+.menu-options {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border: 1px;
+    
+}
+
+.menu-options a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 5px 0;
+        border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border: 1px;
+}
